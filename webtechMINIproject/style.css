@@ -1,0 +1,147 @@
+  
+        
+                #mainWrap{
+               
+                background-color: lightyellow; 
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                height: 100%;
+        }
+        
+        .logo{
+            
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+                  
+        }
+        
+        #navbar{
+           width: 100%;        
+        }
+        
+        #navbar #menu{
+            
+            background: #000;
+            height: 50px;
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+           
+        }
+        
+        #navbar li a{  
+             display: block;
+             height: 50px;
+             text-align: center;
+             line-height: 50px;
+             color: #fff;
+             text-decoration: none;
+        }
+        
+        #navbar li{
+            
+            display: inline-block;
+            width: 150px;
+            padding-top: 0px;
+            
+        }
+
+        #menu{       
+            width: 100%;
+        }
+        
+        #navbar ul li ul{   
+            display: none;
+            background: #19c589;
+        }
+
+        #navbar ul > li:hover ul {
+            
+            display: block;
+            position: absolute;
+            z-index: 99999;
+            background: #000;
+            width: 150px;
+            box-sizing: border-box;
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+
+
+li:hover a{
+    
+    background: #19c589;
+    transition: all 1s;
+}
+
+
+li:hover ul li a{
+    background: #000;
+    height: 40px;
+    line-height: 40px;  
+
+}
+
+li ul li a:hover{
+    
+    background: #19c589;
+    transition: 1s;
+    
+}
+
+
+ul li ul:hover a{
+
+    transition: 1s;
+}
+
+li:hover ul{
+    transition: 1s;
+}
+ 
+        #navbar ul li ul li{
+            
+            height: 50px;
+        }
+           
+        ul li ul li:hover{
+            
+            display: block;
+            background: #19c589;
+            transition: 1s;
+        }
+        
+
+@media screen and (max-width: 0px){
+    
+    u1{
+        
+        position: static;
+        display: none;
+    }
+    
+    li{
+        
+        margin-bottom: 2px;
+    }
+    u li ,li a{
+        
+        width: 100%;
+    }
+    .show-menu{
+        
+        display: block;
+    }
+    
+    body{
+        
+        background-image: none;  
+    }
+}
+        
+        
+        
